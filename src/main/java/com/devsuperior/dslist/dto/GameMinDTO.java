@@ -13,12 +13,12 @@ public class GameMinDTO {
     public GameMinDTO() {
     }
 
-    public GameMinDTO(Game GameEntity) {
-        this.id = GameEntity.getId();
-        this.title = GameEntity.getTitle();
-        this.year = GameEntity.getYear();
-        this.imgUrl = GameEntity.getImgUrl();
-        this.shortDescription = GameEntity.getShortDescription();
+    public GameMinDTO(Game gameEntity) {
+        this.id = gameEntity.getId();
+        this.title = gameEntity.getTitle();
+        this.year = gameEntity.getYear();
+        this.imgUrl = gameEntity.getImgUrl();
+        this.shortDescription = gameEntity.getShortDescription();
     }
 
     public Long getId() {
